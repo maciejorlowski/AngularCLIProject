@@ -1,0 +1,61 @@
+{
+  "employees": [
+    {
+      "id": 2,
+      "name": "Marys",
+      "gender": "Female",
+      "contactPreference": "Phone",
+      "phoneNumber": "2345978640jhkhkh",
+      "dateOfBirth": "2018-07-05T22:00:00.000Z",
+      "department": "4",
+      "isActive": true,
+      "photoPath": "assets/images/mary.png",
+      "email": ""
+    },
+    {
+      "id": 3,
+      "name": "John",
+      "gender": "Male",
+      "contactPreference": "Phone",
+      "phoneNumber": 5432978640,
+      "dateOfBirth": "1976/3/25",
+      "department": "3",
+      "isActive": false,
+      "photoPath": "assets/images/mark.png"
+    },
+    {
+      "id": 4,
+      "name": "David",
+      "gender": "Female",
+      "contactPreference": "Phone",
+      "phoneNumber": "34345",
+      "email": "",
+      "dateOfBirth": "2018-07-01T08:20:34.000Z",
+      "department": "3",
+      "isActive": true,
+      "photoPath": "assets/images/john.png"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "HelpDesk"
+    },
+    {
+      "id": 2,
+      "name": "HR"
+    },
+    {
+      "id": 3,
+      "name": "IT"
+    },
+    {
+      "id": 4,
+      "name": "Payroll"
+    },
+    {
+      "id": 5,
+      "name": "Admin"
+    }
+  ]
+}
