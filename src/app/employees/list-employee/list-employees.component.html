@@ -1,8 +1,8 @@
-<div class="form-group">
-    <input type="text" class="form-control" placeholder="Search By Name" [(ngModel)]="searchTerm" />
+<div class="form-group list-employee">
+    <input type="text" class="form-control transparent-input" placeholder="Search By Name" [(ngModel)]="searchTerm" />
 </div>
-<div *ngFor="let employee of filteredEmployees">
-    <app-display-employee [employee]="employee" [searchTerm]="searchTerm" 
+<div class="employee-div" *ngFor="let employee of filteredEmployees">
+    <app-display-employee [employee]="employee" [searchTerm]="searchTerm"
         (notifyDelete)="onDeleteNotification($event)">
     </app-display-employee>
 </div>

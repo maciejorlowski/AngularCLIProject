@@ -1,3 +1,21 @@
 .pointerCursor {
     cursor: pointer;
 }
+
+.transparent-input {
+  background-color: #0e020287;
+  color: #f7f7fb;
+}
+
+:host {
+  width: 70%;
+}
+
+.panel {
+  border: none;
+  background-color: #fff0;
+}
+
+.panel-primary {
+  border-color: white;
+}
