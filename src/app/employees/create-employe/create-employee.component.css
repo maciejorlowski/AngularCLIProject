@@ -1,3 +1,26 @@
 :host {
   width: 70%;
 }
+
+.detail-container {
+  background-color: #cbcbd59c;
+}
+
+.panel-primary {
+  border: 0;
+}
+
+.panel-heading {
+  border: 0;
+  color: #d9dee7;
+  background-color: #0e040491;
+}
+
+.panel-body {
+  background-color: #cbcbd59c;
+}
+
+.panel-footer {
+  color: #d9dee7;
+  background-color: #0e040491;
+}

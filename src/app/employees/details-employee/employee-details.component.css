@@ -6,3 +6,20 @@
     display: flex;
     align-items: center;
 }
+
+:host {
+  width: 70%;
+}
+
+.detail-container {
+  background-color: #cbcbd59c;
+}
+
+.panel-heading {
+  color: #d9dee7;
+  background-color: #0e040491;
+}
+
+.panel-body {
+  background-color: #cbcbd59c;
+}

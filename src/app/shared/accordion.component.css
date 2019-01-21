@@ -1,3 +1,28 @@
 .pointerCursor {
     cursor: pointer;
+  border: 0;
+  border-radius: 0;
+}
+
+.detail-container {
+  background-color: #cbcbd59c;
+}
+
+.panel-heading {
+  color: #d9dee7;
+  background-color: #0e040491;
+}
+
+.panel-body {
+  background-color: #cbcbd59c;
+}
+
+.panel {
+  background-color: #ffffff6b;
+  border: 0;
+}
+
+.panel-footer {
+  color: #d9dee7;
+  background-color: #0e040491;
 }

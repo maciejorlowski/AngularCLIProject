@@ -9,8 +9,11 @@
 
 button.btn {
     width: 70px;
+  margin: 3px;
 }
 
 :host {
   min-width: 70vw;
 }
+
+

@@ -10,12 +10,3 @@
 :host {
   width: 70%;
 }
-
-.panel {
-  border: none;
-  background-color: #fff0;
-}
-
-.panel-primary {
-  border-color: white;
-}
