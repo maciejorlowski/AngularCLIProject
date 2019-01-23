@@ -5,11 +5,11 @@
       "name": "Marys",
       "gender": "Female",
       "contactPreference": "Phone",
-      "phoneNumber": "2345978640jhkhkh",
+      "phoneNumber": "58578",
       "dateOfBirth": "2018-07-05T22:00:00.000Z",
-      "department": "4",
+      "department": "2",
       "isActive": true,
-      "photoPath": "assets/images/mary.png",
+      "photoPath": "assets/images/obama.jpg",
       "email": ""
     },
     {
@@ -33,7 +33,31 @@
       "dateOfBirth": "2018-07-01T08:20:34.000Z",
       "department": "3",
       "isActive": true,
-      "photoPath": "assets/images/john.png"
+      "photoPath": "assets/images/women_nyga.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "4444",
+      "gender": "Female",
+      "contactPreference": "Phone",
+      "phoneNumber": "141424",
+      "email": "",
+      "dateOfBirth": "2011-08-04T22:00:00.000Z",
+      "department": "1",
+      "isActive": null,
+      "photoPath": "assets/images/mary.png"
+    },
+    {
+      "id": 6,
+      "name": "dfwd",
+      "gender": "Female",
+      "contactPreference": "Phone",
+      "phoneNumber": "sdfdfsdfsd",
+      "email": "",
+      "dateOfBirth": "0131-12-11T22:36:00.000Z",
+      "department": "2",
+      "isActive": false,
+      "photoPath": "assets/images/mary.png"
     }
   ],
   "departments": [

@@ -91,7 +91,7 @@
       <div class="row">
         <div class="form-group col-md-5">
           <label for="dateOfBirth">Date of Birth</label>
-          <input id="dateOfBirth" name="dateOfBirth" [(ngModel)]="employee.dateOfBirth" placement="right" type="text" bsDatepicker
+          <input id="dateOfBirth" placeholder="DD/MM/YYYY" name="dateOfBirth" [(ngModel)]="employee.dateOfBirth" placement="right" type="text" bsDatepicker
             [bsConfig]="datePickerConfig" class="form-control">
         </div>
       </div>
@@ -104,7 +104,7 @@
       <div class="form-group">
         <button type="button" (click)="togglePhotoPreview()" class="btn btn-primary"
                 *ngIf="employee.photoPath !== '' && employee.photoPath !== null">
-          {{previewPhoto? "Hide ": "Show "}} Preview
+          {{previewPhoto? "Hide ": "Show "}} Photo
         </button>
       </div>
 
@@ -118,7 +118,7 @@
         <img [src]="employee.photoPath" height="200" width="200"
         *ngIf="previewPhoto && employee.photoPath !== '' && employee.photoPath !== null" />
       </div>
-      
+
     </div>
 
     <div class="panel-footer">

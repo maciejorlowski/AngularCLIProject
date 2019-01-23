@@ -28,7 +28,7 @@ export class CreateEmployeeComponent implements OnInit {
               private _departmentService: DepartmentService,
               private _router: Router,
               private _route: ActivatedRoute,
-  private httpClient : HttpClient) {
+  private httpClient: HttpClient) {
     this.datePickerConfig = Object.assign({},
       {
         containerClass: 'theme-dark-blue',
@@ -104,7 +104,7 @@ export class CreateEmployeeComponent implements OnInit {
   onUpload(){
     const fd = new FormData()
     fd.append('image', this.selectedFile, this.selectedFile.name);
-    this.httpClient.post('http://localhost:4200/assets/images', fd)
+    this.httpClient.post('http://localhost:4200/assets/', fd)
       .subscribe(res => {
         console.log(res);
       });
